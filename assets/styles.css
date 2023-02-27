@@ -1,0 +1,31 @@
+:root {
+  /* FONT VARIABLES */
+
+  --font-barlow: "Barlow", sans-serif;
+  --font-frances: "Fraunces", serif;
+
+  /*TITLES*/
+
+  --color-big-titles: #23303d;
+  --color-small-text: #8f8c94;
+
+  --color-dark-blue: #1e536b;
+  --color-dark-gren: #2b7363;
+
+  /*INACTIVE STATE TEXT BACKGROUND*/
+  --color-inactive-yellow: #fdefc5;
+  --color-inactive-red: #fbdcd5;
+  /*ACTIVE STATE COLORS*/
+
+  --color-hover-yellow: #ffcf00;
+  --color-hover-red: #fe7f6f;
+
+  --color-white: hsl(0, 0%, 100%);
+
+  /* OFF WHITE BACKGROUND*/
+  --color-offwhite: #fffbf8;
+}
+
+body {
+  font-size: 1.1rem;
+}
