@@ -374,6 +374,17 @@ footer {
   justify-content: space-around;
 }
 
+.footer__socialicons {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+}
+
+.footer__socialicons--img {
+  width: 10%;
+}
+
 .attribution {
   background-color: var(--color-dark-gren);
   display: flex;
