@@ -8,8 +8,8 @@
 
   --color-primary-blue: #3dbeff;
 
-  --color-big-titles: #23303d;
-  --color-small-text: #8f8c94;
+  --color-big-titles: #3a4249;
+  --color-small-text: #7d7a82;
 
   --color-dark-blue: #1e536b;
   --color-dark-gren: #1f6052;
@@ -71,6 +71,9 @@ body {
 a {
   text-decoration: none;
   color: inherit;
+}
+body {
+  scroll-behavior: smooth;
 }
 
 /* NAVIGATION BAR */
@@ -279,14 +282,104 @@ navbar__links--show {
 
 /* TESTIMONIALS */
 
+.testimonies__title {
+  margin: 2.5rem 0 0.5em 0;
+  color: var(--color-small-text);
+  font-family: var(--font-frances);
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  font-size: 0.9rem;
+}
+
 .testimonies {
   background-color: var(--color-offwhite);
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-inline: 3rem;
 }
 
 .testimonies__icons {
   border-radius: 75px;
-  width: 20%;
+  width: 25%;
+  margin: 2.4rem 0 1.5rem 0;
+}
+
+.testimonies__text {
+  text-align: center;
+  font-family: var(--font-barlow);
+  color: var(--color-big-titles);
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.7rem;
+  margin-bottom: 1rem;
+}
+
+.testimonies__text--names {
+  padding: 0.7rem 0 0.5rem 0;
+  font-family: var(--font-frances);
+  color: var(--color-big-titles);
+  font-weight: 800;
+}
+
+.testimonies__text--position {
+  color: var(--color-small-text);
+  font-family: var(--font-barlow);
+  font-weight: 400;
+  font-size: 0.9rem;
+  margin-bottom: 2rem;
+}
+
+/* FRUIT SQUARE */
+
+.fruitpictures {
+  display: flex;
+  flex-direction: column;
+}
+
+.fruitpictures__container {
+  display: flex;
+  flex-direction: row;
+}
+
+.fruitpictures__card {
+  width: 50%;
+}
+
+footer {
+  background-color: #90d4c5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem 0;
+}
+.footer__logo {
+  width: 40%;
+  margin-bottom: 1.5rem;
+}
+
+.footer__links {
+  color: #297c6a;
+  font-family: var(--font-barlow);
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  display: flex;
+}
+
+.footer__links {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.attribution {
+  background-color: var(--color-dark-gren);
+  display: flex;
+  color: white;
+  font-family: var(--font-barlow);
+  font-size: 0.6rem;
+  justify-content: center;
+  font-weight: 600;
 }
